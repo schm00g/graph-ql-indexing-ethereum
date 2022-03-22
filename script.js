@@ -17,8 +17,7 @@ const main = async () => {
                 }`
             }
         );
-    
-        console.log(result.data.data.tokens)
+        console.log(result.data.data.tokens);
     } catch (err){
         console.log(err);
     }
